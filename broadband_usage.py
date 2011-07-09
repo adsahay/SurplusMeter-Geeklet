@@ -8,6 +8,7 @@
 #   bandwidth usage from SurplusMeter
 ############################################################
 
+import os
 import calendar
 from datetime import datetime
 from xml.etree.ElementTree import ElementTree
@@ -17,7 +18,8 @@ ESCAPE_PAST_DUE_COLOR = u"\033[31m" # defaults to red
 ESCAPE_AVAILABLE_COLOR = u"\033[32m" # defaults to green
 ESCAPE_CANCEL = u"\033[0m" # resets all text atributes you may have set
 
-data_file = '/Users/adsahay/Library/Application Support/SurplusMeter/surplusmeter_data.plist'
+user = os.getenv('USER')
+data_file = '/Users/%s/Library/Application Support/SurplusMeter/surplusmeter_data.plist' % user
 
 # parse the plist file and build a dictionary
 tree = ElementTree()

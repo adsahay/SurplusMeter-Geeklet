@@ -2,7 +2,7 @@
 
 [SurplusMeter](http://www.skoobysoft.com/utilities/utilities.html) is a broadband monitoring tool for Mac, for those of us with limited data plans.  
 
-[Geektool](http://www.skoobysoft.com/utilities/utilities.html) is an awesome utility to customize a Mac desktop with all sorts of useful (or plain eye candy) information.
+[Geektool](http://projects.tynsoe.org/en/geektool/) is an awesome utility to customize a Mac desktop with all sorts of useful (or plain eye candy) information.
 
 I exceeded my monthly data plan today, and decided to write this script for displaying a summary of my broadband usage on my desktop. 
 
